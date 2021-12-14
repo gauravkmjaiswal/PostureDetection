@@ -40,7 +40,8 @@ let actor_img;
 let specs,smoke;
 
 function setup() {
-    createCanvas(800, 500);
+    // createCanvas(800, 500);
+    createCanvas(700, 480);
     capture = createCapture(VIDEO)
     capture.hide();
     posenet = ml5.poseNet(capture, modelLoaded);
